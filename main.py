@@ -3,7 +3,6 @@ import bravo
 import charlie
 from deltaFolder.delta import printing_myFileName
 import echoFolder.echo as echo
-import golf
 
 try:
     charlie.get_user_age()

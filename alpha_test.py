@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
         first_value = "a"
         second_value = "a"
         error_message = "First value and second value are not equal !"
-        self.assertEqual(firstValue, secondValue, error_message)
+        self.assertEqual(first_value, second_value, error_message)
 
     def test_charlie(self):
         # See charlie for test

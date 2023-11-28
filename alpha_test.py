@@ -11,6 +11,7 @@ class MyTestCase(unittest.TestCase):
     def test_default(self):
         firstValue = "a"
         secondValue = "a"
+        print(firstValue)
         error_message = "First value and second value are not equal !"
         self.assertEqual(firstValue, secondValue, error_message)
 

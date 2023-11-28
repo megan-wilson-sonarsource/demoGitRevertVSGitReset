@@ -9,8 +9,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(my_alpha.greet(), 'Hello World!', error_message)
 
     def test_default(self):
-        first_value = "a"
-        second_value = "a"
+        firstValue = "a"
+        secondValue = "a"
         error_message = "First value and second value are not equal !"
         self.assertEqual(first_value, second_value, error_message)
 

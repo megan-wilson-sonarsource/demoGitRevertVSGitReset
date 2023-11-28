@@ -1,1 +1,1 @@
-print("what's going on")
+print('what\'s going on')

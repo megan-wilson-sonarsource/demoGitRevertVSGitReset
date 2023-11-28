@@ -33,12 +33,10 @@ try:
 except ValueError:
     print("That's not a valid value for your age!")
 
-person1 = Parent("Mary", 63)
-person2 = Child("Megan", 35)
-person3 = Child("Amanda", 25)
-display(person1)
-display(person2)
-display(person3)
+dictionary_of_people = {0:Parent("Mary", 63), 1:Child("Megan", 35), 2:Child("Amanda", 25)}
+for each_person in dictionary_of_people:
+    display(dictionary_of_people[each_person])
+
 print("---------------------")
-print("Between " + person2.name + " and " + person3.name + ", " +compare_ages_of(person2, person3)+ " is the older")
-print("Between " + person1.name + " and " + person3.name + ", " +compare_ages_of(person1, person3)+ " is the older")
+print("Between " + dictionary_of_people[1].name + " and " + dictionary_of_people[2].name + ", " +compare_ages_of(dictionary_of_people[1], dictionary_list_of_people[2])+ " is the older")
+print("Between " + dictionary_of_people[0].name + " and " + dictionary_of_people[2].name + ", " +compare_ages_of(dictionary_of_people[0], dictionary_list_of_people[2])+ " is the older")
